@@ -1,0 +1,58 @@
+<section class="options">
+<h1>
+  Type Checker
+  </h1>
+<div class="option">
+  <label> Your Text</label>
+  <input type="text" name="sentence" placeholder="The quick brown...">
+ 
+  <div class="option">
+    <label>typeface</label>
+    <select name="typeface"> 
+      <option value="fira sans">Fira Sans </option>
+      <option value="prompt">Prompt</option>
+      <option value="Taviraj">Taviraj</option>
+      <option value="Trirong"></option>
+      </select>
+  </div>
+  
+  
+  
+  <div class="option">
+    <label> type size<span class="typesize-output">64px</span></label>
+    <input type="range" name= "typesize" min=12 max=200 value=64>
+   <div class="option">
+     
+     <div class="option">
+       <label>Font Weight <span class="fontweight-output"></span>
+       <input type="range" name="fontweight" min=100 max=900 value=400 step=100>
+       </label>
+     </div>
+     
+    </div>
+  </div>
+  <div class="option">
+    <label> leading <span class="lineheight-output">1.5</span></label>
+    <input type="range" name= "lineheight" min=0.75 max=2.5 value=1.5 step=1.5>
+  </div>
+  <div class="option-checkbox">
+    <label>Italic</label>
+    <input type="checkbox" name="italic" >
+  </div>
+  
+  <div class="option">
+    <label>Colors</label>
+    <div class="colors">
+      
+    <div style="background-color: #2a2a2a; color: #ffffff" >a</div>
+      <div style="background-color: #ffffff; color: #2a2a2a2a">a</div>
+      <div style="background-color: #63ff03; color: #2a2a2a2a">a</div>
+      <div style="background-color: #ee0073; color: #ffffff">a</div>
+    
+  </div>
+  
+</section>
+
+<textarea class="output">The quick brown fox jumps over the lazy dog</textarea>
+
+<script src="typechecker.js"></script>
